@@ -16,7 +16,6 @@ class AsistenController extends BaseController
     public function index()
     {
         //check if session exists
-        $session = session();
         if (! $this->hasSession()) {
             return view('login/loginpage');
         }

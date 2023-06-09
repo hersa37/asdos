@@ -6,6 +6,7 @@ use CodeIgniter\Model;
 
 class LoginModel extends Model
 {
+    protected $DBGroup = 'default';
     protected $table = 'Login';
     protected $useAutoIncrement = false;
     protected $primaryKey = 'Username';
