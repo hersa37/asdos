@@ -13,5 +13,10 @@
     NIM:<input type="text" name="nim"/><br/>
     <input type="submit" name="" value="Hapus"/>
 </form>
+<a href="/asisten" class="btn btn-primary">Daftar Asisten</a>
+<a href="/asisten/simpan" class="btn btn-primary">Tambah</a>
+<a href="/asisten/update" class="btn btn-primary">Update</a>
+<a href="/login/logout" class="btn btn-primary">Logout</a>
+
 </body>
 </html>

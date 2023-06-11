@@ -20,5 +20,9 @@
     IPK:<input type="text" name="ipk"/><br/>
     <input type="submit" name="" value="Update"/>
 </form>
+<a href="/asisten" class="btn btn-primary">Daftar Asisten</a>
+<a href="/asisten/simpan" class="btn btn-primary">Tambah</a>
+<a href="/asisten/delete" class="btn btn-primary">Delete</a>
+<a href="/login/logout" class="btn btn-primary">Logout</a>
 </body>
 </html>
